@@ -1,0 +1,117 @@
+.wjs-top {
+    line-height: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+
+    .row {
+        >div {
+            text-align: center;
+            height: 50px;
+
+            &:nth-child(-n+3) {
+                border-right: 2px solid #ccc;
+            }
+
+            a {
+                position: relative;
+                display: block;
+
+                &:hover {
+                    img {
+                        z-index: 999;
+                        display: block;
+                    }
+                }
+
+                img {
+                    display: none;
+                    position: absolute;
+                    top: 50px;
+                    left: 26px;
+                    border: 1px solid #ccc;
+                    border-top: 0;
+                }
+                
+            }
+            &:nth-child(3){
+                a{
+                    display: inline;
+                }
+            }
+            &:nth-child(4){
+                button{
+                    &:nth-child(1){
+                        background-color: ;
+                    }
+            }
+        }
+        
+    }
+
+}
+
+
+
+
+
+.wjs-navbar {
+    .wjs-navbar-nav {
+        a {
+            height: 80px;
+            line-height: 50px;
+            font-size: 16px;
+
+            &:hover {
+                border-bottom: 3px solid red;
+            }
+        }
+
+        .active {
+            a {
+                border-bottom: 3px solid red;
+                background-color: transparent;
+
+                &:hover {
+                    background-color: transparent;
+
+                }
+            }
+        }
+    }
+
+    .navbar-header {
+        button {
+            margin-top: 24px;
+        }
+    }
+
+    .navbar-right {
+        li {
+            a {
+                height: 80px;
+                line-height: 50px;
+                font-size: 16px;
+
+                &:hover {
+                    border-bottom: 3px solid red;
+                }
+            }
+        }
+    }
+
+    .navbar-brand {
+        span {
+            height: 80px;
+            line-height: 50px;
+            font-size: 40px;
+
+            &:nth-child(1) {
+                color: red;
+            }
+
+            &:nth-child(2) {
+                color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,277 @@
+.wjs-top {
+  z-index: 999;
+  line-height: 50px;
+  height: 50px;
+  border: 1px solid #eee;
+}
+.wjs-top .row > div {
+  text-align: center;
+  height: 50px;
+}
+.wjs-top .row > div:nth-child(-n+3) {
+  border-right: 2px solid #ccc;
+}
+.wjs-top .row > div a {
+  position: relative;
+  display: block;
+}
+.wjs-top .row > div a:hover img {
+  z-index: 999;
+  display: block;
+}
+.wjs-top .row > div a img {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 26px;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+.wjs-top .row > div:nth-child(3) a {
+  display: inline;
+}
+.wjs-top .row > div:nth-child(4) button:nth-child(1) {
+  background-color: red;
+}
+.wjs-navbar {
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+.wjs-navbar .wjs-navbar-nav a {
+  height: 80px;
+  line-height: 50px;
+  font-size: 16px;
+}
+.wjs-navbar .wjs-navbar-nav a:hover {
+  border-bottom: 3px solid red;
+}
+.wjs-navbar .wjs-navbar-nav .active a {
+  border-bottom: 3px solid red;
+  background-color: transparent;
+}
+.wjs-navbar .wjs-navbar-nav .active a:hover {
+  background-color: transparent;
+}
+.wjs-navbar .navbar-header button {
+  margin-top: 24px;
+}
+.wjs-navbar .navbar-right li a {
+  height: 80px;
+  line-height: 50px;
+  font-size: 16px;
+}
+.wjs-navbar .navbar-right li a:hover {
+  border-bottom: 3px solid red;
+}
+.wjs-navbar .navbar-brand span {
+  height: 80px;
+  line-height: 50px;
+  font-size: 40px;
+}
+.wjs-navbar .navbar-brand span:nth-child(1) {
+  color: red;
+}
+.wjs-navbar .navbar-brand span:nth-child(2) {
+  color: black;
+}
+.baozhang {
+  border-bottom: 1px solid #ccc;
+}
+.baozhang .row div {
+  height: 75px;
+}
+.baozhang .row div span {
+  line-height: 75px;
+  display: inline-block;
+  font-size: 30px;
+}
+.baozhang .row div .right {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  height: 50px;
+}
+.baozhang .row div .right a:nth-child(1) {
+  font-size: 18px;
+  display: block;
+}
+.paidui {
+  position: relative;
+}
+.paidui .container {
+  padding-top: 10px;
+}
+.paidui a:last-child {
+  float: right;
+}
+.paidui p {
+  height: 20px;
+  line-height: 35 px;
+  display: inline-block;
+  color: red;
+}
+.paidui .yuyue {
+  border-bottom: 1px dashed red;
+}
+.xialiebiao {
+  background-color: #f0f0f0;
+  padding-top: 20px;
+}
+.xialiebiao .container {
+  border-bottom: 1px solid #ed4949;
+}
+.xialiebiao .row {
+  position: relative;
+  left: 30px;
+}
+.xialiebiao .row div {
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  height: 47px;
+  line-height: 47px;
+}
+.xialiebiao .row div:first-child {
+  border-bottom: 3px solid red;
+}
+.xialiebiao .row div:last-child {
+  position: absolute;
+  left: 1050px;
+}
+.xialiebiao .row div:hover {
+  border-bottom: 3px solid red;
+}
+.touzi {
+  background-color: #f0f0f0;
+}
+.touzi .row {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.touzi .row > div {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  height: 150px;
+  background-color: #ccc;
+}
+.touzi .row > div > div {
+  height: 150px;
+  display: flex;
+  background-color: #e92322;
+}
+.touzi .row > div > div .left {
+  width: 60%;
+  height: 150px;
+  border-right: 1px dashed white;
+}
+.touzi .row > div > div .left .top {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+.touzi .row > div > div .left .top a {
+  color: white;
+  font-size: 20px;
+}
+.touzi .row > div > div .left .bottom p {
+  font-size: 10px;
+  margin-left: 20px;
+  width: 35%;
+  height: 40px;
+  display: inline-block;
+  color: white;
+}
+.touzi .row > div > div .right {
+  position: relative;
+  width: 40%;
+  height: 150px;
+}
+.touzi .row > div > div .right a {
+  position: absolute;
+  display: inline-block;
+}
+.touzi .row > div > div .right a:first-child {
+  top: 40px;
+  left: 50px;
+  font-size: 40px;
+}
+.touzi .row > div > div .right a:nth-child(2) {
+  font-size: 20px;
+  top: 70px;
+  left: 80px;
+}
+.touzi .row > div > div .right a:last-child {
+  top: 100px;
+  left: 50px;
+}
+.news {
+  margin-top: 20px;
+}
+.news .row > div:nth-child(1) {
+  height: 66.7px;
+}
+.news .row > div:nth-child(1) > a {
+  text-align: center;
+  width: 150px;
+  font-size: 20px;
+  position: absolute;
+  left: 40%;
+  line-height: 66px;
+  border-bottom: 1px dashed red;
+}
+.news .row div:nth-child(2) ul {
+  margin-left: -55px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.news .row div:nth-child(2) li {
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 18px;
+  list-style: none;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+}
+.news .row div:nth-child(2) li:hover {
+  background-color: red;
+}
+.news .row div:nth-child(3) div ul {
+  margin-left: -30px;
+}
+.news .row div:nth-child(3) div li {
+  margin-top: 5px;
+  list-style: none;
+}
+.news .row div:nth-child(3) div li a {
+  line-height: 40px;
+}
+.hezuo {
+  height: 160px;
+}
+.hezuo ul {
+  height: 100%;
+  margin-top: 20px;
+}
+.hezuo a {
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.hezuo li {
+  text-align: center;
+  list-style: none;
+  float: left;
+  width: 11%;
+  border-right: 1px dashed #ccc;
+}
+.hezuo li:last-child {
+  border: 0;
+}
+.hezuo li img {
+  width: 50px;
+}
